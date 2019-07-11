@@ -13,16 +13,26 @@ g++ -o name_of_executable Start.o PGArray.o main.o
 Choice to start with either:
 initial game board loaded on a text file or chosen in game.
 format of file: 
+
 line 1 - number of rows
+
 line 2 - number of columns
+
 next lines - layout of initial game board using 'X' as a cell and any other character as empty space.
+
 Example:
 4
+
 4
+
 X-X-
+
 -XX-
+
 ---X
+
 XXXX
+
 
 Choice to play game by:
 1. having a 1 second pause after each generation
@@ -45,15 +55,24 @@ Example:
 if board is normally this:
 
   X - -
+  
   \- X X
+  
   \- x -
   
+  
 then in mirror mode it would act like this: (mirrored cells in lower case x)
+
   x
+  
 x X - - 
+
   \- X X x
+  
   \- X -
+  
     x
+
 
 Donut Mode:
 Adds rule:
@@ -62,12 +81,19 @@ Example:
 if board is normally this:
 
   X - -
+  
   \- X X
+  
   \- x -
+  
   
 then in donut mode it would act like this: (wrapped cells in lower case x)
     x
+    
   X - - x
+  
 x - X X 
+
   \- X -
+  
   x 
