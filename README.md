@@ -45,14 +45,14 @@ Example:
 if board is normally this:
 
   X - -
-  - X X
-  - x -
+  \- X X
+  \- x -
   
 then in mirror mode it would act like this: (mirrored cells in lower case x)
   x
 x X - - 
-  - X X x
-  - X -
+  \- X X x
+  \- X -
     x
 
 Donut Mode:
@@ -62,12 +62,12 @@ Example:
 if board is normally this:
 
   X - -
-  - X X
-  - x -
+  \- X X
+  \- x -
   
 then in donut mode it would act like this: (wrapped cells in lower case x)
     x
   X - - x
 x - X X 
-  - X -
+  \- X -
   x 
