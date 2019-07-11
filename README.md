@@ -21,18 +21,14 @@ line 2 - number of columns
 next lines - layout of initial game board using 'X' as a cell and any other character as empty space.
 
 Example:
+...
 4
-
 4
-
 X-X-
-
 -XX-
-
 ---X
-
 XXXX
-
+...
 
 Choice to play game by:
 1. having a 1 second pause after each generation
