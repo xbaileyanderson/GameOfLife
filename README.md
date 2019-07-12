@@ -11,7 +11,10 @@ g++ -o name_of_executable Start.o PGArray.o main.o
 
 # Features
 Choice to start with either:
-initial game board loaded on a text file or chosen in game.
+-Initial game board chosen in game
+
+-Initial game board loaded on a text file chosen in game
+
 format of file: 
 
 line 1 - number of rows
@@ -30,21 +33,21 @@ X-X-
 XXXX
 ```
 
-Choice to play game by:
+##Choice to play game by:
 1. having a 1 second pause after each generation
 2. pressing "ENTER" to proceed to next generation
 3. outputting results of game to a text file of choice
 
-3 game modes:
+##3 game modes:
 
-Classic Mode - uses 4 regular rules
+###Classic Mode - uses 4 regular rules
 from Wikipedia:
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 2. Any live cell with two or three live neighbours lives on to the next generation.
 3. Any live cell with more than three live neighbours dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-Mirror Mode:
+###Mirror Mode:
 Adds rule:
 5. Any cell on an edge is mirrored so that its reflection(s) also count as cells.
 Example:
@@ -64,7 +67,7 @@ x X - -
     x
 ```
 
-Donut Mode:
+###Donut Mode:
 Adds rule:
 5. Any cell on an edge is wrapped around to the opposite side so that its wrapped counterpart(s) also count as cells.
 Example:
