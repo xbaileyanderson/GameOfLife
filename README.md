@@ -12,7 +12,7 @@ g++ -o name_of_executable Start.o PGArray.o main.o
 # Features
 ### Choice to start with either:
 
-Initial game board chosen in game or loaded on a text file chosen in game.
+Initial game board created in game or loaded from a text file.
 
 ### Format of file: 
 
@@ -74,7 +74,7 @@ if board is normally this:
 ```
   X - -
   - X X
-  - x -
+  - X -
 ```
   
 then in donut mode it would act like this: (wrapped cells in lower case x)
