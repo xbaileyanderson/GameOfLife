@@ -51,9 +51,7 @@ Example:
 if board is normally this:
 ```
   X - -
-  
   - X X
-  
   - x -
 ```
   
@@ -73,9 +71,7 @@ Example:
 if board is normally this:
 ```
   X - -
-  
   - X X
-  
   - x -
 ```
   
