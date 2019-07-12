@@ -49,47 +49,41 @@ Adds rule:
 5. Any cell on an edge is mirrored so that its reflection(s) also count as cells.
 Example:
 if board is normally this:
-
+```
   X - -
   
-  \- X X
+  - X X
   
-  \- x -
-  
+  - x -
+```
   
 then in mirror mode it would act like this: (mirrored cells in lower case x)
-
+```
   x
-  
 x X - - 
-
-  \- X X x
-  
-  \- X -
-  
+  - X X x
+  - X -
     x
-
+```
 
 Donut Mode:
 Adds rule:
 5. Any cell on an edge is wrapped around to the opposite side so that its wrapped counterpart(s) also count as cells.
 Example:
 if board is normally this:
-
+```
   X - -
   
-  \- X X
+  - X X
   
-  \- x -
-  
+  - x -
+```
   
 then in donut mode it would act like this: (wrapped cells in lower case x)
+```
     x
-    
   X - - x
-  
 x - X X 
-
-  \- X -
-  
+  - X -
   x 
+```
