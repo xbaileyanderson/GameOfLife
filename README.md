@@ -10,12 +10,11 @@ g++ -c .cpp files
 g++ -o name_of_executable Start.o PGArray.o main.o
 
 # Features
-Choice to start with either:
--Initial game board chosen in game
+### Choice to start with either:
 
--Initial game board loaded on a text file chosen in game
+Initial game board chosen in game or loaded on a text file chosen in game.
 
-format of file: 
+### Format of file: 
 
 line 1 - number of rows
 
